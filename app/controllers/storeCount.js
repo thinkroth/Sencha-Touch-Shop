@@ -21,7 +21,7 @@ Ext.regController("storeCount", {
 	cart: function(){
 		simpleCart.empty(); //empties cart to start fresh
 
-       //NEEDS FIXED! price and quantity done in simplecart.js for now
+       //NEEDS FIXED! price and quantity done in simplecart for now
 		var productsForCart = "name="+totalOrder;
 		simpleCart.add( productsForCart );
 		simpleCart.checkout();

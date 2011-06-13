@@ -5,7 +5,8 @@ Ext.regApplication({
     defaultUrl:'main/first',	
     icon: 'resources/images/kiva.png',
     glossOnIcon: false,
-    tabletStartupScreen: 'resources/images/tablet_startup.png'
+    tabletStartupScreen: 'resources/images/tablet_startup.png',
+	phoneStartupScreen: 'resources/images/tablet_startup.png',
 
     launch: function() {
 		Ext.dispatch({
