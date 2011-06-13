@@ -1,0 +1,11 @@
+{
+    "addresses": [
+        {
+            "id": 6,
+            "name": "Potstickers - Half Order (3)",
+			"paypalQuery": "Potstickers-half-order",
+			"product": "Pork Potstickers with dipping sauce.",
+			"price": "3.50"
+        }
+    ]
+}

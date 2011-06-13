@@ -1,0 +1,11 @@
+{
+    "addresses": [
+        {
+            "id": 4,
+            "name": "Vietnamese Chicken Curry",
+			"paypalQuery": "Vietnamese-chicken-curry",
+			"product": "A delicate curry with carrot, potato and chicken served over rice.",
+			"price": 6
+        }
+    ]
+}

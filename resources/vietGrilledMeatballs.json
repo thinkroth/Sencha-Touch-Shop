@@ -1,0 +1,12 @@
+{
+    "addresses": [
+        {
+            "id": 7,
+            "name": "Vietnamese Grilled Meatballs",
+			"paypalQuery": "Vietnamese-grilled-meatballs",
+			"product": "Skewer of meatballs with a side of spicy-sweet dipping sauce.",
+			"price": 3,
+			"dishInfo": "Gluten free"
+        }
+    ]
+}

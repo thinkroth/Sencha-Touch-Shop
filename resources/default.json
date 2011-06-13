@@ -1,0 +1,43 @@
+{
+	"rss": [
+		{
+			"jsonfeeds": [
+				{
+					"id": 1,
+					"name": "Pad Thai",
+					"source":"resources/padThai.json"
+				},
+				{
+					"id": 2,
+					"name": "Viet Burger",
+					"source":"resources/vietBurger.json"
+				},
+				{
+					"id": 3,
+					"name": "Vietnamese Chicken Curry",
+					"source":"resources/vietChickenCurry.json"
+				},
+				{
+					"id": 4,
+					"name": "Pot Stickers",
+					"source":"resources/potStickers.json"
+				},
+				{
+					"id": 5,
+					"name": "Pot Stickers - Half Order (3)",
+					"source":"resources/potStickersHalf.json"
+				},
+				{
+					"id": 6,
+					"name": "Vietnamese Grilled Meatballs",
+					"source":"resources/vietGrilledMeatballs.json"
+				},
+				{
+					"id": 7,
+					"name": "Fish Tacos",
+					"source":"resources/fishTacos.json"
+				}
+			]
+		}
+	 ]
+}

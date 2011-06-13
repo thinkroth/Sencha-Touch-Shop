@@ -1,0 +1,50 @@
+.group-feed-widget{
+margin:25px;
+}
+
+.widget-title{
+	color: black;
+	font-family: 'Lucida Grande', Verdana, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	margin: 0px;
+	text-align: center;
+}
+
+.buy-button {
+	display:inline-block;
+	text-align:center;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,246,246,1)), color-stop(21%,rgba(219,220,226,1)), color-stop(49%,rgba(184,186,198,1)), color-stop(80%,rgba(221,223,227,1)), color-stop(100%,rgba(245,246,246,1)));
+	padding:5px;
+	border-radius: 15px;
+	color:#000;
+}
+
+#wrapper {
+	background:#AFBD22;
+	text-align:center;
+	width:300px;
+	margin:auto;
+	padding:10px;
+}
+	
+.x-layout-fit {background:#AFBD22;}
+
+.search-item .delete {
+	opacity:0;
+	float:right;
+}
+
+.search-item-active .search-item .action {
+	float: right;
+	color: white;
+	font-size: 0.7em;
+	padding: 5px 8px;
+	border-color: #555;
+	background-color: red;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #FF4D4D), color-stop(50%, #FF1A1A), color-stop(51%, red), color-stop(100%, #E60000));
+	background-image: linear-gradient(#FF4D4D,#FF1A1A 50%,red 51%,#E60000);
+	opacity:1;
+}
+
+.breaker {height:20px;}

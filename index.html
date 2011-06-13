@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">	
+    <title>Food Truck</title>
+    
+	<link rel="stylesheet" href="resources/css/android.css" type="text/css" />
+    <!--<link rel="stylesheet" href="resources/css/sencha-touch-debug.css" type="text/css" /> -->
+	<!--<link rel="stylesheet" href="resources/css/apple.css" type="text/css" /> -->
+	<link rel="stylesheet" href="resources/css/rss.css" type="text/css" />
+
+</head>
+<body>		
+			
+			<script src="resources/sencha-touch.js" type="text/javascript" charset="utf-8"></script>
+    <div id="sencha-app">
+			<script src="app/app.js" type="text/javascript" charset="utf-8"></script>
+        <!-- Place your view files here -->
+        <div id="sencha-views">
+			<script src="app/views/RssApp.js" type="text/javascript" charset="utf-8"></script>
+			<script src="app/views/home.js" type="text/javascript" charset="utf-8"></script>
+			<script src="app/views/JSONFeed.js" type="text/javascript" charset="utf-8"></script>
+			<script src="app/views/Carousel.js" type="text/javascript" charset="utf-8"></script>
+			<script src="app/views/items.js" type="text/javascript" charset="utf-8"></script>
+			<script src="app/views/searchbar.js" type="text/javascript" charset="utf-8"></script>
+			<script src="app/views/checkout.js" type="text/javascript" charset="utf-8"></script>	
+		</div>       
+        <!-- Place your model files here -->
+        <div id="sencha-models">	
+			<script src="app/models/JSONFeed.js" type="text/javascript" charset="utf-8"></script>
+			<script src="app/models/ProductInfo.js" type="text/javascript" charset="utf-8"></script>
+			<script src="app/models/Item.js" type="text/javascript" charset="utf-8"></script>
+        </div>    
+		<!-- Place your stores files here -->
+        <div id="sencha-stores">
+			<script src="app/stores/ProductCarouselStore.js" type="text/javascript" charset="utf-8"></script>
+			<script src="app/stores/ProductInfoStore.js" type="text/javascript" charset="utf-8"></script>
+			<script src="app/stores/itemStore.js" type="text/javascript" charset="utf-8"></script>
+		</div>	
+        <!-- Place your controller files here -->
+        <div id="sencha-controllers">
+			<script src="app/controllers/main.js" type="text/javascript" charset="utf-8"></script>
+			<script src="app/controllers/storeCount.js" type="text/javascript" charset="utf-8"></script>
+        </div>
+    </div>
+    		<script src="simplecart.js" type="text/javascript" charset="utf-8"></script>  
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+    "addresses": [
+        {
+            "id": 3,
+            "name": "Viet Burger",
+			"paypalQuery": "Viet-Burger",
+			"product": "All beef patty with Vietnamese flavors - topped with onion and house hot sauce.",
+			"price": 5
+        }
+    ]
+}
