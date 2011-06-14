@@ -1,1 +1,3 @@
 This is a proof-of-concept demonstration of an e-commerce app using the Sencha Touch Framework.  It's built using the MVC pattern included with version 1.0 of Sencha Touch.  There are places in the code ripe for improvement, but everything "works".
+
+The demo uses AJAX requests to pull the info from the included json file.  Because of this, you'll need to run it from a server.  To avoid this issue, use the built in script tag proxy instead.  That update will be coming soon.
