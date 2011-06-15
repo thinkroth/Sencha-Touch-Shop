@@ -31,4 +31,4 @@ foodtruck.HomePanel = Ext.extend(Ext.TabPanel, {
 	}
 });
 
-Ext.reg('rssMain', foodtruck.HomePanel);
+Ext.reg('Main', foodtruck.HomePanel);
