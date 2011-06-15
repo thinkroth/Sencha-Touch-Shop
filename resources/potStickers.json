@@ -5,7 +5,8 @@
             "name": "Potstickers",
 			"paypalQuery": "Potstickers",
 			"product": "Pork Potstickers with dipping sauce.",
-			"price": 6
+			"price": 6,
+			"image": "http://i492.photobucket.com/albums/rr290/FindtheDarkness/100x100px.png"
         }
     ]
 }

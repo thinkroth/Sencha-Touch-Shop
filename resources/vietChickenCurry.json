@@ -5,7 +5,8 @@
             "name": "Vietnamese Chicken Curry",
 			"paypalQuery": "Vietnamese-chicken-curry",
 			"product": "A delicate curry with carrot, potato and chicken served over rice.",
-			"price": 6
+			"price": 6,
+			"image": "http://i492.photobucket.com/albums/rr290/FindtheDarkness/100x100px.png"
         }
     ]
 }

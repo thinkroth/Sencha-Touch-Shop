@@ -21,7 +21,7 @@ function Cart(){
 	me.shippingCost = 0;
 	me.currency = USD;
 	me.checkoutTo = PayPal;
-	me.email = "kevinroth82@gmail.com";
+	me.email = "";
 	me.merchantId	 = "";
 	me.cartHeaders = ['Name','Price','Quantity','Total'];
 

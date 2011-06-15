@@ -6,7 +6,8 @@
 			"paypalQuery": "Pad-Thai",
 			"product": "Our signature dish! Rice noodles with egg, tofu, bean sprouts, peanuts & cilantro in our own Pad Thai sauce.",
 			"price": 7,
-			"dishInfo": "Gluten Free, Vegetarian"
+			"dishInfo": "Gluten Free, Vegetarian",
+			"image": "http://i492.photobucket.com/albums/rr290/FindtheDarkness/100x100px.png"
         }
     ]
 }

@@ -6,7 +6,8 @@
 			"paypalQuery": "Fish-Tacos",
 			"product": "Curried tilapia with romaine lettuce, cilantro, mint, red onion, cucumber and our house lime-aioli on a handmade corn tortilla.",
 			"price": 3,
-			"dishInfo": "Gluten free"
+			"dishInfo": "Gluten free",
+			"image": "http://i492.photobucket.com/albums/rr290/FindtheDarkness/100x100px.png"
         }
     ]
 }

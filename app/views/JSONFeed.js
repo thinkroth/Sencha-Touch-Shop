@@ -39,6 +39,7 @@ foodtruck.JSONFeedPanel = Ext.extend(Ext.Panel, {
 										'<div class="widget-title">{name}</div>'+
 										'<br />'+
 										'<div class="product-info"><i>{dishInfo}</i></div>'+
+										'<br /><img src="{image}">'+
 										'<div class="product-description">{product}</div>'+
 										'<br />'+
 										'<div class="buy-button-holder">${price} <div class="buy-button">Add to Order</div></div>'+

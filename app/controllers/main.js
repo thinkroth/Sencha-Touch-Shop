@@ -11,7 +11,6 @@ Ext.regController("main", {
 					if(!pfirst){
 						var defaultStore = records[0].jsonfeeds();
 						store.loadData(defaultStore.getRange(0));
-						store.sync();
 					}
 					Ext.dispatch({
 				            controller: "main",
