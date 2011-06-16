@@ -2,16 +2,12 @@ Ext.regController("main", {
 
     first: function() {		
 		var store = Ext.getStore('ProductCarouselStore'),
-			pfirst = store.first();
+			first = store.first();
 		
-		if(!pfirst){
-			var pstore = Ext.getStore('ProductInfoStore');
-			pstore.load({
+		if(!first){
+			store.load({
 				callback: function(records){
-					if(!pfirst){
-						var defaultStore = records[0].jsonfeeds();
-						store.loadData(defaultStore.getRange(0));
-					}
+					store.loadData(records[0].jsonfeedsStore.data.items);
 					Ext.dispatch({
 				            controller: "main",
 				            action    : "show"
@@ -31,7 +27,7 @@ Ext.regController("main", {
         
         if (!view) {
             this.detailView = this.render({
-                xtype: 'rssMain'
+                xtype: 'Main'
             }, Ext.getBody());
             
             view = this.detailView;

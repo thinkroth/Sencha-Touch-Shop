@@ -20,14 +20,16 @@ foodtruck.JSONFeedPanel = Ext.extend(Ext.Panel, {
 	},
 		
 	AjaxRequest: function(){
-		Ext.getStore('ProductCarouselStore').each(function(){
+		store = Ext.getStore('ProductCarouselStore');
+		store.each(function(){
 			var me = this;
-			if(me.data.source!=""){
+			console.log(me.data);
+			if(me.data!=""){
 
 				Ext.Ajax.request({
-	                url: me.data.source,
-	                success: function(response, opts){
-						var res = Ext.util.JSON.decode(response.responseText);
+					url: 'resources/default.json',
+					scope: this,
+	                success: function(opts){
 						var store = new Ext.data.Store({
 								model: 'JSONFeed',
 						});
@@ -64,7 +66,9 @@ foodtruck.JSONFeedPanel = Ext.extend(Ext.Panel, {
 								}
 							}
 						});
-						store.add(res.addresses);
+						store.add(me.data);
+					//	console.log(me.data);
+					//	console.log(dataview);
 						Ext.getCmp(me.data.name).add(dataview);
 					}
 	            });	

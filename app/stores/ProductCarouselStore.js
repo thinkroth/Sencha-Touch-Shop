@@ -3,7 +3,7 @@ var ProductCarousel = foodtruck.stores.ProductCarouselStore = new Ext.data.Store
     storeId: 'ProductCarouselStore',
 	autoLoad: false,
 	proxy: {
-        type: 'scripttag',
+        type: 'ajax',
         url : 'resources/default.json',
 		reader: {
 			type:'json',

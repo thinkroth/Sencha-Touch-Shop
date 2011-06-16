@@ -5,37 +5,68 @@
 				{
 					"id": 1,
 					"name": "Pad Thai",
-					"source":"resources/padThai.json"
+					"source":"resources/padThai.json",
+					"paypalQuery": "Fish-Tacos",
+					"product": "Curried tilapia with romaine lettuce, cilantro, mint, red onion, cucumber and our house lime-aioli on a handmade corn tortilla.",
+					"price": 3,
+					"dishInfo": "Gluten free",
+					"image": "http://i492.photobucket.com/albums/rr290/FindtheDarkness/100x100px.png"
 				},
 				{
 					"id": 2,
 					"name": "Viet Burger",
-					"source":"resources/vietBurger.json"
+					"source":"resources/vietBurger.json",
+					"paypalQuery": "Viet-Burger",
+					"product": "All beef patty with Vietnamese flavors - topped with onion and house hot sauce.",
+					"price": 5,
+					"image": "http://i492.photobucket.com/albums/rr290/FindtheDarkness/100x100px.png"
 				},
 				{
 					"id": 3,
 					"name": "Vietnamese Chicken Curry",
-					"source":"resources/vietChickenCurry.json"
+					"source":"resources/vietChickenCurry.json",
+					"paypalQuery": "Vietnamese-chicken-curry",
+					"product": "A delicate curry with carrot, potato and chicken served over rice.",
+					"price": 6,
+					"image": "http://i492.photobucket.com/albums/rr290/FindtheDarkness/100x100px.png"
 				},
 				{
 					"id": 4,
 					"name": "Pot Stickers",
-					"source":"resources/potStickers.json"
+					"source":"resources/potStickers.json",
+					"paypalQuery": "Potstickers",
+					"product": "Pork Potstickers with dipping sauce.",
+					"price": 6,
+					"image": "http://i492.photobucket.com/albums/rr290/FindtheDarkness/100x100px.png"
 				},
 				{
 					"id": 5,
 					"name": "Pot Stickers - Half Order (3)",
-					"source":"resources/potStickersHalf.json"
+					"source":"resources/potStickersHalf.json",
+					"paypalQuery": "Potstickers-half-order",
+					"product": "Pork Potstickers with dipping sauce.",
+					"price": "3.50",
+					"image": "http://i492.photobucket.com/albums/rr290/FindtheDarkness/100x100px.png"
 				},
 				{
 					"id": 6,
 					"name": "Vietnamese Grilled Meatballs",
-					"source":"resources/vietGrilledMeatballs.json"
+					"source":"resources/vietGrilledMeatballs.json",
+					"paypalQuery": "Vietnamese-grilled-meatballs",
+					"product": "Skewer of meatballs with a side of spicy-sweet dipping sauce.",
+					"price": 3,
+					"dishInfo": "Gluten free",
+					"image": "http://i492.photobucket.com/albums/rr290/FindtheDarkness/100x100px.png"
 				},
 				{
 					"id": 7,
 					"name": "Fish Tacos",
-					"source":"resources/fishTacos.json"
+					"source":"resources/fishTacos.json",
+					"paypalQuery": "Fish-Tacos",
+					"product": "Curried tilapia with romaine lettuce, cilantro, mint, red onion, cucumber and our house lime-aioli on a handmade corn tortilla.",
+					"price": 3,
+					"dishInfo": "Gluten free",
+					"image": "http://i492.photobucket.com/albums/rr290/FindtheDarkness/100x100px.png"
 				}
 			]
 		}

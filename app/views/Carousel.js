@@ -6,11 +6,11 @@ foodtruck.Carousel = Ext.extend(Ext.Carousel, {
 	initComponent: function(){
 		var citems=[];
 		
-		Ext.getStore('ProductCarouselStore').each(function(rec){
+		Ext.getStore('ProductCarouselStore').each(function(){
 			citems.push({
 				xtype:'container',
 				layout:'card',
-				id:rec.data.name	
+				id:this.data.name	
 			});
 		});
 		Ext.apply(this, {
