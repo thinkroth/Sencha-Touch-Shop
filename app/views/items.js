@@ -41,8 +41,7 @@ foodtruck.views.Items = Ext.extend(Ext.List, {
 			 });
             
         } else {
-            this.deactivateAll();
-            
+            this.deactivateAll();         
             return foodtruck.views.Items.superclass.onItemTap.apply(this, arguments);
         }
     },

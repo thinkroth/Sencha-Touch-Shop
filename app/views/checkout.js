@@ -18,7 +18,6 @@ foodtruck.views.Checkout = Ext.extend(Ext.List, {
         foodtruck.views.Checkout.superclass.initComponent.apply(this, arguments);
         
         this.enableBubble('selectionchange');
-
 		this.on({
             scope: this
         });

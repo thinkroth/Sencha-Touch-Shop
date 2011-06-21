@@ -8,8 +8,7 @@ foodtruck.JSONFeedPanel = Ext.extend(Ext.Panel, {
 	initComponent: function() {
 		Ext.apply(this, {
 			items:[{
-				xtype:'foodtruck-carousel', 
-				id:'carousel'
+				xtype:'foodtruck-carousel'
 			}]		
 		});
 		foodtruck.JSONFeedPanel.superclass.initComponent.apply(this, arguments);
